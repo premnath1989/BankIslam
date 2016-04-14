@@ -1,0 +1,26 @@
+//
+//  FinancialDetailsViewController.h
+//  BankIslam
+//
+//  Created by Danny Raharja on 15/01/2014.
+//  Copyright (c) 2014 Danny Raharja. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "GradientLayer.h"
+
+@protocol FinancialDetailsDelegate;
+
+@interface FinancialDetailsViewController : UIViewController
+
+@property (nonatomic, weak) id<FinancialDetailsDelegate> delegate;
+
+@end
+
+
+@protocol FinancialDetailsDelegate <NSObject>
+
+- (void)nextSegment;
+- (void)prevSegment;
+
+@end

@@ -1,0 +1,877 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17E9BA201CBF23A2006098B8 /* MyID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5B37A5188CC9C500CE90AA /* MyID.framework */; };
+		EA0A8C9D1895D26B00251C7E /* GradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0A8C9C1895D26B00251C7E /* GradientLayer.m */; };
+		EA5130DF1895D4DC009FBE5C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5130DE1895D4DC009FBE5C /* QuartzCore.framework */; };
+		EA5130E11895DED2009FBE5C /* menu button.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5130E01895DED2009FBE5C /* menu button.png */; };
+		EA5B37AC188CCA0F00CE90AA /* MyKadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5B37A9188CCA0F00CE90AA /* MyKadViewController.m */; };
+		EA5B37AD188CCA0F00CE90AA /* MyKidViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5B37AB188CCA0F00CE90AA /* MyKidViewController.m */; };
+		EA5B37AF188CCD3C00CE90AA /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5B37AE188CCD3C00CE90AA /* ExternalAccessory.framework */; };
+		EA5B37B2188CCE9D00CE90AA /* MyKadHeader_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA5B37B0188CCE9D00CE90AA /* MyKadHeader_iPad.xib */; };
+		EA5B37B3188CCE9D00CE90AA /* MyKidHeader_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA5B37B1188CCE9D00CE90AA /* MyKidHeader_iPad.xib */; };
+		EA5B37BF188CD04F00CE90AA /* MainBg.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5B37B5188CD04F00CE90AA /* MainBg.png */; };
+		EA5B37C0188CD04F00CE90AA /* MainBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5B37B6188CD04F00CE90AA /* MainBg@2x.png */; };
+		EA5B37C1188CD04F00CE90AA /* myid.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5B37B7188CD04F00CE90AA /* myid.png */; };
+		EA5B37C2188CD04F00CE90AA /* mykad.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5B37B8188CD04F00CE90AA /* mykad.png */; };
+		EA5B37C3188CD04F00CE90AA /* MyKadBg.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5B37B9188CD04F00CE90AA /* MyKadBg.png */; };
+		EA5B37C4188CD04F00CE90AA /* MyKadBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5B37BA188CD04F00CE90AA /* MyKadBg@2x.png */; };
+		EA5B37C5188CD04F00CE90AA /* mykid.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5B37BB188CD04F00CE90AA /* mykid.png */; };
+		EA5B37C6188CD04F00CE90AA /* MyKidBg.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5B37BC188CD04F00CE90AA /* MyKidBg.png */; };
+		EA5B37C7188CD04F00CE90AA /* MyKidBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5B37BD188CD04F00CE90AA /* MyKidBg@2x.png */; };
+		EA5B37C8188CD04F00CE90AA /* nophoto.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5B37BE188CD04F00CE90AA /* nophoto.png */; };
+		EA62597F1886452300AE5151 /* CardChoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA62597D1886452300AE5151 /* CardChoiceViewController.m */; };
+		EA6259801886452300AE5151 /* CardChoiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA62597E1886452300AE5151 /* CardChoiceViewController.xib */; };
+		EA625983188646EE00AE5151 /* checkBox0.png in Resources */ = {isa = PBXBuildFile; fileRef = EA625981188646EE00AE5151 /* checkBox0.png */; };
+		EA625984188646EE00AE5151 /* checkBox1.png in Resources */ = {isa = PBXBuildFile; fileRef = EA625982188646EE00AE5151 /* checkBox1.png */; };
+		EA62598918864E3600AE5151 /* PersonalDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA62598718864E3600AE5151 /* PersonalDetailsViewController.m */; };
+		EA62598A18864E3600AE5151 /* PersonalDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA62598818864E3600AE5151 /* PersonalDetailsViewController.xib */; };
+		EA62598E18865B9A00AE5151 /* EmploymentDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA62598C18865B9A00AE5151 /* EmploymentDetailsViewController.m */; };
+		EA62598F18865B9A00AE5151 /* EmploymentDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA62598D18865B9A00AE5151 /* EmploymentDetailsViewController.xib */; };
+		EA62599318865E9F00AE5151 /* FinancialDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA62599118865E9F00AE5151 /* FinancialDetailsViewController.m */; };
+		EA62599418865E9F00AE5151 /* FinancialDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA62599218865E9F00AE5151 /* FinancialDetailsViewController.xib */; };
+		EA62599818865EF700AE5151 /* EmergencyContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA62599618865EF700AE5151 /* EmergencyContactViewController.m */; };
+		EA62599918865EF700AE5151 /* EmergencyContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA62599718865EF700AE5151 /* EmergencyContactViewController.xib */; };
+		EA62599D18865F0D00AE5151 /* SpouseDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA62599B18865F0D00AE5151 /* SpouseDetailsViewController.m */; };
+		EA62599E18865F0D00AE5151 /* SpouseDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA62599C18865F0D00AE5151 /* SpouseDetailsViewController.xib */; };
+		EA6259A218865F2A00AE5151 /* SupplementaryCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6259A018865F2A00AE5151 /* SupplementaryCardViewController.m */; };
+		EA6259A318865F2A00AE5151 /* SupplementaryCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA6259A118865F2A00AE5151 /* SupplementaryCardViewController.xib */; };
+		EA6259A718865F3F00AE5151 /* DeclarationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6259A518865F3F00AE5151 /* DeclarationViewController.m */; };
+		EA6259A818865F3F00AE5151 /* DeclarationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA6259A618865F3F00AE5151 /* DeclarationViewController.xib */; };
+		EA6259AC18865F5200AE5151 /* SupportingDocumentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6259AA18865F5200AE5151 /* SupportingDocumentViewController.m */; };
+		EA6259AD18865F5200AE5151 /* SupportingDocumentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA6259AB18865F5200AE5151 /* SupportingDocumentViewController.xib */; };
+		EA6259B118865F6700AE5151 /* SignatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6259AF18865F6700AE5151 /* SignatureViewController.m */; };
+		EA6259B218865F6700AE5151 /* SignatureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA6259B018865F6700AE5151 /* SignatureViewController.xib */; };
+		EA6259B41886627100AE5151 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = EA6259B31886627100AE5151 /* camera.png */; };
+		EA6259F1188665EB00AE5151 /* BezierInterpView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6259EA188665EB00AE5151 /* BezierInterpView.m */; };
+		EA6259F2188665EB00AE5151 /* CachedLIView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6259EC188665EB00AE5151 /* CachedLIView.m */; };
+		EA6259F3188665EB00AE5151 /* LinearInterpView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6259EE188665EB00AE5151 /* LinearInterpView.m */; };
+		EA6259F4188665EB00AE5151 /* SmoothedBIView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6259F0188665EB00AE5151 /* SmoothedBIView.m */; };
+		EA667BB01888A3AA00B77204 /* CardChoiceVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA667BAF1888A3AA00B77204 /* CardChoiceVC.xib */; };
+		EA667BB21888A3E000B77204 /* PersonalDetailsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA667BB11888A3E000B77204 /* PersonalDetailsVC.xib */; };
+		EA667BB41888A40400B77204 /* EmploymentDetailsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA667BB31888A40400B77204 /* EmploymentDetailsVC.xib */; };
+		EA667BC41888A4FA00B77204 /* FinancialDetailsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA667BC31888A4FA00B77204 /* FinancialDetailsVC.xib */; };
+		EA667BC61888A50700B77204 /* EmergencyContactVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA667BC51888A50700B77204 /* EmergencyContactVC.xib */; };
+		EA667BC81888A51100B77204 /* SpouseDetailsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA667BC71888A51100B77204 /* SpouseDetailsVC.xib */; };
+		EA667BCA1888A51B00B77204 /* SupplementaryCardVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA667BC91888A51B00B77204 /* SupplementaryCardVC.xib */; };
+		EA667BCC1888A52500B77204 /* DeclarationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA667BCB1888A52500B77204 /* DeclarationVC.xib */; };
+		EA667BCE1888A52F00B77204 /* SupportingDocumentVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA667BCD1888A52F00B77204 /* SupportingDocumentVC.xib */; };
+		EA667BD21888A5D300B77204 /* SignatureVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA667BD11888A5D300B77204 /* SignatureVC.xib */; };
+		EA667BD61888BA9A00B77204 /* SubmissionReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA667BD41888BA9A00B77204 /* SubmissionReportViewController.m */; };
+		EA667BD71888BA9A00B77204 /* SubmissionReportViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA667BD51888BA9A00B77204 /* SubmissionReportViewController.xib */; };
+		EA667BDD1888BC1200B77204 /* SubmissionReportVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA667BDC1888BC1200B77204 /* SubmissionReportVC.xib */; };
+		EAD34F4F18964049005A748A /* watermark.png in Resources */ = {isa = PBXBuildFile; fileRef = EAD34F4E18964049005A748A /* watermark.png */; };
+		EAFF5B541883801800F6A017 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFF5B531883801800F6A017 /* Foundation.framework */; };
+		EAFF5B561883801800F6A017 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFF5B551883801800F6A017 /* CoreGraphics.framework */; };
+		EAFF5B581883801800F6A017 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFF5B571883801800F6A017 /* UIKit.framework */; };
+		EAFF5B5E1883801800F6A017 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAFF5B5C1883801800F6A017 /* InfoPlist.strings */; };
+		EAFF5B601883801800F6A017 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFF5B5F1883801800F6A017 /* main.m */; };
+		EAFF5B641883801800F6A017 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFF5B631883801800F6A017 /* AppDelegate.m */; };
+		EAFF5B671883801800F6A017 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAFF5B651883801800F6A017 /* Main.storyboard */; };
+		EAFF5B6A1883801800F6A017 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFF5B691883801800F6A017 /* ViewController.m */; };
+		EAFF5B6C1883801800F6A017 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAFF5B6B1883801800F6A017 /* Images.xcassets */; };
+		EAFF5B731883801800F6A017 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFF5B721883801800F6A017 /* XCTest.framework */; };
+		EAFF5B741883801800F6A017 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFF5B531883801800F6A017 /* Foundation.framework */; };
+		EAFF5B751883801800F6A017 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFF5B571883801800F6A017 /* UIKit.framework */; };
+		EAFF5B7D1883801800F6A017 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAFF5B7B1883801800F6A017 /* InfoPlist.strings */; };
+		EAFF5B7F1883801800F6A017 /* BankIslamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFF5B7E1883801800F6A017 /* BankIslamTests.m */; };
+		EAFF5B8A188381A300F6A017 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = EAFF5B89188381A300F6A017 /* logo.png */; };
+		EAFF5B911883880100F6A017 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFF5B901883880100F6A017 /* MainMenuViewController.m */; };
+		EAFF5B9518839B9E00F6A017 /* CreditCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFF5B9418839B9E00F6A017 /* CreditCardViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAFF5B761883801800F6A017 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAFF5B481883801800F6A017 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAFF5B4F1883801800F6A017;
+			remoteInfo = BankIslam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA0A8C9B1895D26B00251C7E /* GradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientLayer.h; sourceTree = "<group>"; };
+		EA0A8C9C1895D26B00251C7E /* GradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientLayer.m; sourceTree = "<group>"; };
+		EA5130DE1895D4DC009FBE5C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EA5130E01895DED2009FBE5C /* menu button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu button.png"; sourceTree = "<group>"; };
+		EA5B37A5188CC9C500CE90AA /* MyID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MyID.framework; path = BankIslam/MyID.framework; sourceTree = "<group>"; };
+		EA5B37A8188CCA0F00CE90AA /* MyKadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyKadViewController.h; path = KAD/MyKadViewController.h; sourceTree = "<group>"; };
+		EA5B37A9188CCA0F00CE90AA /* MyKadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyKadViewController.m; path = KAD/MyKadViewController.m; sourceTree = "<group>"; };
+		EA5B37AA188CCA0F00CE90AA /* MyKidViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyKidViewController.h; path = KAD/MyKidViewController.h; sourceTree = "<group>"; };
+		EA5B37AB188CCA0F00CE90AA /* MyKidViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyKidViewController.m; path = KAD/MyKidViewController.m; sourceTree = "<group>"; };
+		EA5B37AE188CCD3C00CE90AA /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		EA5B37B0188CCE9D00CE90AA /* MyKadHeader_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MyKadHeader_iPad.xib; path = KAD/MyKadHeader_iPad.xib; sourceTree = "<group>"; };
+		EA5B37B1188CCE9D00CE90AA /* MyKidHeader_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MyKidHeader_iPad.xib; path = KAD/MyKidHeader_iPad.xib; sourceTree = "<group>"; };
+		EA5B37B5188CD04F00CE90AA /* MainBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MainBg.png; sourceTree = "<group>"; };
+		EA5B37B6188CD04F00CE90AA /* MainBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MainBg@2x.png"; sourceTree = "<group>"; };
+		EA5B37B7188CD04F00CE90AA /* myid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myid.png; sourceTree = "<group>"; };
+		EA5B37B8188CD04F00CE90AA /* mykad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mykad.png; sourceTree = "<group>"; };
+		EA5B37B9188CD04F00CE90AA /* MyKadBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MyKadBg.png; sourceTree = "<group>"; };
+		EA5B37BA188CD04F00CE90AA /* MyKadBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MyKadBg@2x.png"; sourceTree = "<group>"; };
+		EA5B37BB188CD04F00CE90AA /* mykid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mykid.png; sourceTree = "<group>"; };
+		EA5B37BC188CD04F00CE90AA /* MyKidBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MyKidBg.png; sourceTree = "<group>"; };
+		EA5B37BD188CD04F00CE90AA /* MyKidBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MyKidBg@2x.png"; sourceTree = "<group>"; };
+		EA5B37BE188CD04F00CE90AA /* nophoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nophoto.png; sourceTree = "<group>"; };
+		EA62597C1886452300AE5151 /* CardChoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardChoiceViewController.h; path = Sales/CreditCard/CardChoiceViewController.h; sourceTree = "<group>"; };
+		EA62597D1886452300AE5151 /* CardChoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardChoiceViewController.m; path = Sales/CreditCard/CardChoiceViewController.m; sourceTree = "<group>"; };
+		EA62597E1886452300AE5151 /* CardChoiceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CardChoiceViewController.xib; path = Sales/CreditCard/CardChoiceViewController.xib; sourceTree = "<group>"; };
+		EA625981188646EE00AE5151 /* checkBox0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkBox0.png; path = BankIslam/Images/checkBox0.png; sourceTree = "<group>"; };
+		EA625982188646EE00AE5151 /* checkBox1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkBox1.png; path = BankIslam/Images/checkBox1.png; sourceTree = "<group>"; };
+		EA62598618864E3600AE5151 /* PersonalDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonalDetailsViewController.h; path = Sales/CreditCard/PersonalDetailsViewController.h; sourceTree = "<group>"; };
+		EA62598718864E3600AE5151 /* PersonalDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonalDetailsViewController.m; path = Sales/CreditCard/PersonalDetailsViewController.m; sourceTree = "<group>"; };
+		EA62598818864E3600AE5151 /* PersonalDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PersonalDetailsViewController.xib; path = Sales/CreditCard/PersonalDetailsViewController.xib; sourceTree = "<group>"; };
+		EA62598B18865B9A00AE5151 /* EmploymentDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmploymentDetailsViewController.h; path = Sales/CreditCard/EmploymentDetailsViewController.h; sourceTree = "<group>"; };
+		EA62598C18865B9A00AE5151 /* EmploymentDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmploymentDetailsViewController.m; path = Sales/CreditCard/EmploymentDetailsViewController.m; sourceTree = "<group>"; };
+		EA62598D18865B9A00AE5151 /* EmploymentDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EmploymentDetailsViewController.xib; path = Sales/CreditCard/EmploymentDetailsViewController.xib; sourceTree = "<group>"; };
+		EA62599018865E9F00AE5151 /* FinancialDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FinancialDetailsViewController.h; path = Sales/CreditCard/FinancialDetailsViewController.h; sourceTree = "<group>"; };
+		EA62599118865E9F00AE5151 /* FinancialDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FinancialDetailsViewController.m; path = Sales/CreditCard/FinancialDetailsViewController.m; sourceTree = "<group>"; };
+		EA62599218865E9F00AE5151 /* FinancialDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FinancialDetailsViewController.xib; path = Sales/CreditCard/FinancialDetailsViewController.xib; sourceTree = "<group>"; };
+		EA62599518865EF700AE5151 /* EmergencyContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmergencyContactViewController.h; path = Sales/CreditCard/EmergencyContactViewController.h; sourceTree = "<group>"; };
+		EA62599618865EF700AE5151 /* EmergencyContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmergencyContactViewController.m; path = Sales/CreditCard/EmergencyContactViewController.m; sourceTree = "<group>"; };
+		EA62599718865EF700AE5151 /* EmergencyContactViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EmergencyContactViewController.xib; path = Sales/CreditCard/EmergencyContactViewController.xib; sourceTree = "<group>"; };
+		EA62599A18865F0D00AE5151 /* SpouseDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpouseDetailsViewController.h; path = Sales/CreditCard/SpouseDetailsViewController.h; sourceTree = "<group>"; };
+		EA62599B18865F0D00AE5151 /* SpouseDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpouseDetailsViewController.m; path = Sales/CreditCard/SpouseDetailsViewController.m; sourceTree = "<group>"; };
+		EA62599C18865F0D00AE5151 /* SpouseDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SpouseDetailsViewController.xib; path = Sales/CreditCard/SpouseDetailsViewController.xib; sourceTree = "<group>"; };
+		EA62599F18865F2A00AE5151 /* SupplementaryCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SupplementaryCardViewController.h; path = Sales/CreditCard/SupplementaryCardViewController.h; sourceTree = "<group>"; };
+		EA6259A018865F2A00AE5151 /* SupplementaryCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SupplementaryCardViewController.m; path = Sales/CreditCard/SupplementaryCardViewController.m; sourceTree = "<group>"; };
+		EA6259A118865F2A00AE5151 /* SupplementaryCardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SupplementaryCardViewController.xib; path = Sales/CreditCard/SupplementaryCardViewController.xib; sourceTree = "<group>"; };
+		EA6259A418865F3F00AE5151 /* DeclarationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeclarationViewController.h; path = Sales/CreditCard/DeclarationViewController.h; sourceTree = "<group>"; };
+		EA6259A518865F3F00AE5151 /* DeclarationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeclarationViewController.m; path = Sales/CreditCard/DeclarationViewController.m; sourceTree = "<group>"; };
+		EA6259A618865F3F00AE5151 /* DeclarationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DeclarationViewController.xib; path = Sales/CreditCard/DeclarationViewController.xib; sourceTree = "<group>"; };
+		EA6259A918865F5200AE5151 /* SupportingDocumentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SupportingDocumentViewController.h; path = Sales/CreditCard/SupportingDocumentViewController.h; sourceTree = "<group>"; };
+		EA6259AA18865F5200AE5151 /* SupportingDocumentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SupportingDocumentViewController.m; path = Sales/CreditCard/SupportingDocumentViewController.m; sourceTree = "<group>"; };
+		EA6259AB18865F5200AE5151 /* SupportingDocumentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SupportingDocumentViewController.xib; path = Sales/CreditCard/SupportingDocumentViewController.xib; sourceTree = "<group>"; };
+		EA6259AE18865F6700AE5151 /* SignatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignatureViewController.h; path = Sales/CreditCard/SignatureViewController.h; sourceTree = "<group>"; };
+		EA6259AF18865F6700AE5151 /* SignatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignatureViewController.m; path = Sales/CreditCard/SignatureViewController.m; sourceTree = "<group>"; };
+		EA6259B018865F6700AE5151 /* SignatureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SignatureViewController.xib; path = Sales/CreditCard/SignatureViewController.xib; sourceTree = "<group>"; };
+		EA6259B31886627100AE5151 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = camera.png; path = BankIslam/Images/camera.png; sourceTree = "<group>"; };
+		EA6259E9188665EB00AE5151 /* BezierInterpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierInterpView.h; sourceTree = "<group>"; };
+		EA6259EA188665EB00AE5151 /* BezierInterpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierInterpView.m; sourceTree = "<group>"; };
+		EA6259EB188665EB00AE5151 /* CachedLIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CachedLIView.h; sourceTree = "<group>"; };
+		EA6259EC188665EB00AE5151 /* CachedLIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CachedLIView.m; sourceTree = "<group>"; };
+		EA6259ED188665EB00AE5151 /* LinearInterpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinearInterpView.h; sourceTree = "<group>"; };
+		EA6259EE188665EB00AE5151 /* LinearInterpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinearInterpView.m; sourceTree = "<group>"; };
+		EA6259EF188665EB00AE5151 /* SmoothedBIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmoothedBIView.h; sourceTree = "<group>"; };
+		EA6259F0188665EB00AE5151 /* SmoothedBIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmoothedBIView.m; sourceTree = "<group>"; };
+		EA667BAF1888A3AA00B77204 /* CardChoiceVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CardChoiceVC.xib; path = Sales/CreditCard/CardChoiceVC.xib; sourceTree = "<group>"; };
+		EA667BB11888A3E000B77204 /* PersonalDetailsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PersonalDetailsVC.xib; path = Sales/CreditCard/PersonalDetailsVC.xib; sourceTree = "<group>"; };
+		EA667BB31888A40400B77204 /* EmploymentDetailsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EmploymentDetailsVC.xib; path = Sales/CreditCard/EmploymentDetailsVC.xib; sourceTree = "<group>"; };
+		EA667BC31888A4FA00B77204 /* FinancialDetailsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FinancialDetailsVC.xib; path = Sales/CreditCard/FinancialDetailsVC.xib; sourceTree = "<group>"; };
+		EA667BC51888A50700B77204 /* EmergencyContactVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EmergencyContactVC.xib; path = Sales/CreditCard/EmergencyContactVC.xib; sourceTree = "<group>"; };
+		EA667BC71888A51100B77204 /* SpouseDetailsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SpouseDetailsVC.xib; path = Sales/CreditCard/SpouseDetailsVC.xib; sourceTree = "<group>"; };
+		EA667BC91888A51B00B77204 /* SupplementaryCardVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SupplementaryCardVC.xib; path = Sales/CreditCard/SupplementaryCardVC.xib; sourceTree = "<group>"; };
+		EA667BCB1888A52500B77204 /* DeclarationVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DeclarationVC.xib; path = Sales/CreditCard/DeclarationVC.xib; sourceTree = "<group>"; };
+		EA667BCD1888A52F00B77204 /* SupportingDocumentVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SupportingDocumentVC.xib; path = Sales/CreditCard/SupportingDocumentVC.xib; sourceTree = "<group>"; };
+		EA667BD11888A5D300B77204 /* SignatureVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SignatureVC.xib; path = Sales/CreditCard/SignatureVC.xib; sourceTree = "<group>"; };
+		EA667BD31888BA9A00B77204 /* SubmissionReportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SubmissionReportViewController.h; path = Report/SubmissionReportViewController.h; sourceTree = "<group>"; };
+		EA667BD41888BA9A00B77204 /* SubmissionReportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SubmissionReportViewController.m; path = Report/SubmissionReportViewController.m; sourceTree = "<group>"; };
+		EA667BD51888BA9A00B77204 /* SubmissionReportViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SubmissionReportViewController.xib; path = Report/SubmissionReportViewController.xib; sourceTree = "<group>"; };
+		EA667BDC1888BC1200B77204 /* SubmissionReportVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubmissionReportVC.xib; sourceTree = "<group>"; };
+		EAD34F4E18964049005A748A /* watermark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = watermark.png; sourceTree = "<group>"; };
+		EAFF5B501883801800F6A017 /* BankIslam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankIslam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAFF5B531883801800F6A017 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EAFF5B551883801800F6A017 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EAFF5B571883801800F6A017 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EAFF5B5B1883801800F6A017 /* BankIslam-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BankIslam-Info.plist"; sourceTree = "<group>"; };
+		EAFF5B5D1883801800F6A017 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EAFF5B5F1883801800F6A017 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAFF5B611883801800F6A017 /* BankIslam-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BankIslam-Prefix.pch"; sourceTree = "<group>"; };
+		EAFF5B621883801800F6A017 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EAFF5B631883801800F6A017 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EAFF5B661883801800F6A017 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAFF5B681883801800F6A017 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EAFF5B691883801800F6A017 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EAFF5B6B1883801800F6A017 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EAFF5B711883801800F6A017 /* BankIslamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankIslamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAFF5B721883801800F6A017 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EAFF5B7A1883801800F6A017 /* BankIslamTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BankIslamTests-Info.plist"; sourceTree = "<group>"; };
+		EAFF5B7C1883801800F6A017 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EAFF5B7E1883801800F6A017 /* BankIslamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BankIslamTests.m; sourceTree = "<group>"; };
+		EAFF5B89188381A300F6A017 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = BankIslam/Images/logo.png; sourceTree = "<group>"; };
+		EAFF5B8F1883880100F6A017 /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainMenuViewController.h; path = "Main Menu/MainMenuViewController.h"; sourceTree = "<group>"; };
+		EAFF5B901883880100F6A017 /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainMenuViewController.m; path = "Main Menu/MainMenuViewController.m"; sourceTree = "<group>"; };
+		EAFF5B9318839B9E00F6A017 /* CreditCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreditCardViewController.h; path = Sales/CreditCardViewController.h; sourceTree = "<group>"; };
+		EAFF5B9418839B9E00F6A017 /* CreditCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreditCardViewController.m; path = Sales/CreditCardViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAFF5B4D1883801800F6A017 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5B37AF188CCD3C00CE90AA /* ExternalAccessory.framework in Frameworks */,
+				EAFF5B581883801800F6A017 /* UIKit.framework in Frameworks */,
+				EA5130DF1895D4DC009FBE5C /* QuartzCore.framework in Frameworks */,
+				17E9BA201CBF23A2006098B8 /* MyID.framework in Frameworks */,
+				EAFF5B541883801800F6A017 /* Foundation.framework in Frameworks */,
+				EAFF5B561883801800F6A017 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAFF5B6E1883801800F6A017 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAFF5B731883801800F6A017 /* XCTest.framework in Frameworks */,
+				EAFF5B751883801800F6A017 /* UIKit.framework in Frameworks */,
+				EAFF5B741883801800F6A017 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA5B37A7188CC9FD00CE90AA /* KAD */ = {
+			isa = PBXGroup;
+			children = (
+				EA5B37B4188CD04F00CE90AA /* res */,
+				EA5B37B0188CCE9D00CE90AA /* MyKadHeader_iPad.xib */,
+				EA5B37B1188CCE9D00CE90AA /* MyKidHeader_iPad.xib */,
+				EA5B37A8188CCA0F00CE90AA /* MyKadViewController.h */,
+				EA5B37A9188CCA0F00CE90AA /* MyKadViewController.m */,
+				EA5B37AA188CCA0F00CE90AA /* MyKidViewController.h */,
+				EA5B37AB188CCA0F00CE90AA /* MyKidViewController.m */,
+			);
+			name = KAD;
+			sourceTree = "<group>";
+		};
+		EA5B37B4188CD04F00CE90AA /* res */ = {
+			isa = PBXGroup;
+			children = (
+				EA5B37B5188CD04F00CE90AA /* MainBg.png */,
+				EA5B37B6188CD04F00CE90AA /* MainBg@2x.png */,
+				EA5B37B7188CD04F00CE90AA /* myid.png */,
+				EA5B37B8188CD04F00CE90AA /* mykad.png */,
+				EA5B37B9188CD04F00CE90AA /* MyKadBg.png */,
+				EA5B37BA188CD04F00CE90AA /* MyKadBg@2x.png */,
+				EA5B37BB188CD04F00CE90AA /* mykid.png */,
+				EA5B37BC188CD04F00CE90AA /* MyKidBg.png */,
+				EA5B37BD188CD04F00CE90AA /* MyKidBg@2x.png */,
+				EA5B37BE188CD04F00CE90AA /* nophoto.png */,
+			);
+			name = res;
+			path = KAD/res;
+			sourceTree = "<group>";
+		};
+		EA62597B188644EA00AE5151 /* CreditCard */ = {
+			isa = PBXGroup;
+			children = (
+				EA625985188647B600AE5151 /* XIB */,
+				EA62597C1886452300AE5151 /* CardChoiceViewController.h */,
+				EA62597D1886452300AE5151 /* CardChoiceViewController.m */,
+				EA62598618864E3600AE5151 /* PersonalDetailsViewController.h */,
+				EA62598718864E3600AE5151 /* PersonalDetailsViewController.m */,
+				EA5B37A7188CC9FD00CE90AA /* KAD */,
+				EA62598B18865B9A00AE5151 /* EmploymentDetailsViewController.h */,
+				EA62598C18865B9A00AE5151 /* EmploymentDetailsViewController.m */,
+				EA62599018865E9F00AE5151 /* FinancialDetailsViewController.h */,
+				EA62599118865E9F00AE5151 /* FinancialDetailsViewController.m */,
+				EA62599518865EF700AE5151 /* EmergencyContactViewController.h */,
+				EA62599618865EF700AE5151 /* EmergencyContactViewController.m */,
+				EA62599A18865F0D00AE5151 /* SpouseDetailsViewController.h */,
+				EA62599B18865F0D00AE5151 /* SpouseDetailsViewController.m */,
+				EA62599F18865F2A00AE5151 /* SupplementaryCardViewController.h */,
+				EA6259A018865F2A00AE5151 /* SupplementaryCardViewController.m */,
+				EA6259A418865F3F00AE5151 /* DeclarationViewController.h */,
+				EA6259A518865F3F00AE5151 /* DeclarationViewController.m */,
+				EA6259A918865F5200AE5151 /* SupportingDocumentViewController.h */,
+				EA6259AA18865F5200AE5151 /* SupportingDocumentViewController.m */,
+				EA6259AE18865F6700AE5151 /* SignatureViewController.h */,
+				EA6259AF18865F6700AE5151 /* SignatureViewController.m */,
+			);
+			name = CreditCard;
+			sourceTree = "<group>";
+		};
+		EA625985188647B600AE5151 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				EA62597E1886452300AE5151 /* CardChoiceViewController.xib */,
+				EA667BAF1888A3AA00B77204 /* CardChoiceVC.xib */,
+				EA62598818864E3600AE5151 /* PersonalDetailsViewController.xib */,
+				EA667BB11888A3E000B77204 /* PersonalDetailsVC.xib */,
+				EA62598D18865B9A00AE5151 /* EmploymentDetailsViewController.xib */,
+				EA667BB31888A40400B77204 /* EmploymentDetailsVC.xib */,
+				EA62599218865E9F00AE5151 /* FinancialDetailsViewController.xib */,
+				EA667BC31888A4FA00B77204 /* FinancialDetailsVC.xib */,
+				EA62599718865EF700AE5151 /* EmergencyContactViewController.xib */,
+				EA667BC51888A50700B77204 /* EmergencyContactVC.xib */,
+				EA62599C18865F0D00AE5151 /* SpouseDetailsViewController.xib */,
+				EA667BC71888A51100B77204 /* SpouseDetailsVC.xib */,
+				EA6259A118865F2A00AE5151 /* SupplementaryCardViewController.xib */,
+				EA667BC91888A51B00B77204 /* SupplementaryCardVC.xib */,
+				EA6259A618865F3F00AE5151 /* DeclarationViewController.xib */,
+				EA667BCB1888A52500B77204 /* DeclarationVC.xib */,
+				EA6259AB18865F5200AE5151 /* SupportingDocumentViewController.xib */,
+				EA667BCD1888A52F00B77204 /* SupportingDocumentVC.xib */,
+				EA6259B018865F6700AE5151 /* SignatureViewController.xib */,
+				EA667BD11888A5D300B77204 /* SignatureVC.xib */,
+			);
+			name = XIB;
+			sourceTree = "<group>";
+		};
+		EA6259E8188665EB00AE5151 /* Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				EA6259E9188665EB00AE5151 /* BezierInterpView.h */,
+				EA6259EA188665EB00AE5151 /* BezierInterpView.m */,
+				EA6259EB188665EB00AE5151 /* CachedLIView.h */,
+				EA6259EC188665EB00AE5151 /* CachedLIView.m */,
+				EA6259ED188665EB00AE5151 /* LinearInterpView.h */,
+				EA6259EE188665EB00AE5151 /* LinearInterpView.m */,
+				EA6259EF188665EB00AE5151 /* SmoothedBIView.h */,
+				EA6259F0188665EB00AE5151 /* SmoothedBIView.m */,
+			);
+			path = Drawing;
+			sourceTree = "<group>";
+		};
+		EAFF5B471883801800F6A017 = {
+			isa = PBXGroup;
+			children = (
+				EAFF5B881883819B00F6A017 /* Images */,
+				EAFF5B591883801800F6A017 /* BankIslam */,
+				EAFF5B781883801800F6A017 /* BankIslamTests */,
+				EAFF5B521883801800F6A017 /* Frameworks */,
+				EAFF5B511883801800F6A017 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAFF5B511883801800F6A017 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAFF5B501883801800F6A017 /* BankIslam.app */,
+				EAFF5B711883801800F6A017 /* BankIslamTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAFF5B521883801800F6A017 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA5130DE1895D4DC009FBE5C /* QuartzCore.framework */,
+				EA5B37AE188CCD3C00CE90AA /* ExternalAccessory.framework */,
+				EA5B37A5188CC9C500CE90AA /* MyID.framework */,
+				EAFF5B531883801800F6A017 /* Foundation.framework */,
+				EAFF5B551883801800F6A017 /* CoreGraphics.framework */,
+				EAFF5B571883801800F6A017 /* UIKit.framework */,
+				EAFF5B721883801800F6A017 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAFF5B591883801800F6A017 /* BankIslam */ = {
+			isa = PBXGroup;
+			children = (
+				EA0A8C9B1895D26B00251C7E /* GradientLayer.h */,
+				EA0A8C9C1895D26B00251C7E /* GradientLayer.m */,
+				EA6259E8188665EB00AE5151 /* Drawing */,
+				EAFF5B961883A02300F6A017 /* Report */,
+				EAFF5B9218839B7800F6A017 /* Sales */,
+				EAFF5B8B1883878D00F6A017 /* Main Menu */,
+				EAFF5B621883801800F6A017 /* AppDelegate.h */,
+				EAFF5B631883801800F6A017 /* AppDelegate.m */,
+				EAFF5B651883801800F6A017 /* Main.storyboard */,
+				EAFF5B681883801800F6A017 /* ViewController.h */,
+				EAFF5B691883801800F6A017 /* ViewController.m */,
+				EAFF5B6B1883801800F6A017 /* Images.xcassets */,
+				EAFF5B5A1883801800F6A017 /* Supporting Files */,
+			);
+			path = BankIslam;
+			sourceTree = "<group>";
+		};
+		EAFF5B5A1883801800F6A017 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAFF5B5B1883801800F6A017 /* BankIslam-Info.plist */,
+				EAFF5B5C1883801800F6A017 /* InfoPlist.strings */,
+				EAFF5B5F1883801800F6A017 /* main.m */,
+				EAFF5B611883801800F6A017 /* BankIslam-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAFF5B781883801800F6A017 /* BankIslamTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAFF5B7E1883801800F6A017 /* BankIslamTests.m */,
+				EAFF5B791883801800F6A017 /* Supporting Files */,
+			);
+			path = BankIslamTests;
+			sourceTree = "<group>";
+		};
+		EAFF5B791883801800F6A017 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAFF5B7A1883801800F6A017 /* BankIslamTests-Info.plist */,
+				EAFF5B7B1883801800F6A017 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAFF5B881883819B00F6A017 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EAD34F4E18964049005A748A /* watermark.png */,
+				EA5130E01895DED2009FBE5C /* menu button.png */,
+				EA625981188646EE00AE5151 /* checkBox0.png */,
+				EA625982188646EE00AE5151 /* checkBox1.png */,
+				EAFF5B89188381A300F6A017 /* logo.png */,
+				EA6259B31886627100AE5151 /* camera.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		EAFF5B8B1883878D00F6A017 /* Main Menu */ = {
+			isa = PBXGroup;
+			children = (
+				EAFF5B8F1883880100F6A017 /* MainMenuViewController.h */,
+				EAFF5B901883880100F6A017 /* MainMenuViewController.m */,
+			);
+			name = "Main Menu";
+			sourceTree = "<group>";
+		};
+		EAFF5B9218839B7800F6A017 /* Sales */ = {
+			isa = PBXGroup;
+			children = (
+				EA62597B188644EA00AE5151 /* CreditCard */,
+				EAFF5B9318839B9E00F6A017 /* CreditCardViewController.h */,
+				EAFF5B9418839B9E00F6A017 /* CreditCardViewController.m */,
+			);
+			name = Sales;
+			sourceTree = "<group>";
+		};
+		EAFF5B961883A02300F6A017 /* Report */ = {
+			isa = PBXGroup;
+			children = (
+				EA667BD31888BA9A00B77204 /* SubmissionReportViewController.h */,
+				EA667BD41888BA9A00B77204 /* SubmissionReportViewController.m */,
+				EA667BD51888BA9A00B77204 /* SubmissionReportViewController.xib */,
+				EA667BDC1888BC1200B77204 /* SubmissionReportVC.xib */,
+			);
+			name = Report;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAFF5B4F1883801800F6A017 /* BankIslam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAFF5B821883801800F6A017 /* Build configuration list for PBXNativeTarget "BankIslam" */;
+			buildPhases = (
+				EAFF5B4C1883801800F6A017 /* Sources */,
+				EAFF5B4D1883801800F6A017 /* Frameworks */,
+				EAFF5B4E1883801800F6A017 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BankIslam;
+			productName = BankIslam;
+			productReference = EAFF5B501883801800F6A017 /* BankIslam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAFF5B701883801800F6A017 /* BankIslamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAFF5B851883801800F6A017 /* Build configuration list for PBXNativeTarget "BankIslamTests" */;
+			buildPhases = (
+				EAFF5B6D1883801800F6A017 /* Sources */,
+				EAFF5B6E1883801800F6A017 /* Frameworks */,
+				EAFF5B6F1883801800F6A017 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAFF5B771883801800F6A017 /* PBXTargetDependency */,
+			);
+			name = BankIslamTests;
+			productName = BankIslamTests;
+			productReference = EAFF5B711883801800F6A017 /* BankIslamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAFF5B481883801800F6A017 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Danny Raharja";
+				TargetAttributes = {
+					EAFF5B4F1883801800F6A017 = {
+						DevelopmentTeam = 2YT8E2D9X6;
+					};
+					EAFF5B701883801800F6A017 = {
+						TestTargetID = EAFF5B4F1883801800F6A017;
+					};
+				};
+			};
+			buildConfigurationList = EAFF5B4B1883801800F6A017 /* Build configuration list for PBXProject "BankIslam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAFF5B471883801800F6A017;
+			productRefGroup = EAFF5B511883801800F6A017 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAFF5B4F1883801800F6A017 /* BankIslam */,
+				EAFF5B701883801800F6A017 /* BankIslamTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAFF5B4E1883801800F6A017 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA62599E18865F0D00AE5151 /* SpouseDetailsViewController.xib in Resources */,
+				EA667BB01888A3AA00B77204 /* CardChoiceVC.xib in Resources */,
+				EA667BCE1888A52F00B77204 /* SupportingDocumentVC.xib in Resources */,
+				EA5B37B2188CCE9D00CE90AA /* MyKadHeader_iPad.xib in Resources */,
+				EA667BD21888A5D300B77204 /* SignatureVC.xib in Resources */,
+				EA5B37C3188CD04F00CE90AA /* MyKadBg.png in Resources */,
+				EA667BC81888A51100B77204 /* SpouseDetailsVC.xib in Resources */,
+				EA6259B41886627100AE5151 /* camera.png in Resources */,
+				EA667BDD1888BC1200B77204 /* SubmissionReportVC.xib in Resources */,
+				EA5B37C2188CD04F00CE90AA /* mykad.png in Resources */,
+				EA667BD71888BA9A00B77204 /* SubmissionReportViewController.xib in Resources */,
+				EA667BCA1888A51B00B77204 /* SupplementaryCardVC.xib in Resources */,
+				EA5B37C0188CD04F00CE90AA /* MainBg@2x.png in Resources */,
+				EAFF5B8A188381A300F6A017 /* logo.png in Resources */,
+				EA5B37BF188CD04F00CE90AA /* MainBg.png in Resources */,
+				EA62598A18864E3600AE5151 /* PersonalDetailsViewController.xib in Resources */,
+				EA667BC61888A50700B77204 /* EmergencyContactVC.xib in Resources */,
+				EAFF5B6C1883801800F6A017 /* Images.xcassets in Resources */,
+				EA5B37B3188CCE9D00CE90AA /* MyKidHeader_iPad.xib in Resources */,
+				EA62599918865EF700AE5151 /* EmergencyContactViewController.xib in Resources */,
+				EA667BCC1888A52500B77204 /* DeclarationVC.xib in Resources */,
+				EA667BB21888A3E000B77204 /* PersonalDetailsVC.xib in Resources */,
+				EA5B37C5188CD04F00CE90AA /* mykid.png in Resources */,
+				EAFF5B5E1883801800F6A017 /* InfoPlist.strings in Resources */,
+				EA667BB41888A40400B77204 /* EmploymentDetailsVC.xib in Resources */,
+				EA5B37C6188CD04F00CE90AA /* MyKidBg.png in Resources */,
+				EA5B37C7188CD04F00CE90AA /* MyKidBg@2x.png in Resources */,
+				EA625984188646EE00AE5151 /* checkBox1.png in Resources */,
+				EA6259AD18865F5200AE5151 /* SupportingDocumentViewController.xib in Resources */,
+				EA5130E11895DED2009FBE5C /* menu button.png in Resources */,
+				EA5B37C8188CD04F00CE90AA /* nophoto.png in Resources */,
+				EAD34F4F18964049005A748A /* watermark.png in Resources */,
+				EA6259A818865F3F00AE5151 /* DeclarationViewController.xib in Resources */,
+				EA6259A318865F2A00AE5151 /* SupplementaryCardViewController.xib in Resources */,
+				EA62598F18865B9A00AE5151 /* EmploymentDetailsViewController.xib in Resources */,
+				EA625983188646EE00AE5151 /* checkBox0.png in Resources */,
+				EA5B37C1188CD04F00CE90AA /* myid.png in Resources */,
+				EA62599418865E9F00AE5151 /* FinancialDetailsViewController.xib in Resources */,
+				EA6259B218865F6700AE5151 /* SignatureViewController.xib in Resources */,
+				EA5B37C4188CD04F00CE90AA /* MyKadBg@2x.png in Resources */,
+				EA6259801886452300AE5151 /* CardChoiceViewController.xib in Resources */,
+				EAFF5B671883801800F6A017 /* Main.storyboard in Resources */,
+				EA667BC41888A4FA00B77204 /* FinancialDetailsVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAFF5B6F1883801800F6A017 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAFF5B7D1883801800F6A017 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAFF5B4C1883801800F6A017 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAFF5B9518839B9E00F6A017 /* CreditCardViewController.m in Sources */,
+				EA0A8C9D1895D26B00251C7E /* GradientLayer.m in Sources */,
+				EA667BD61888BA9A00B77204 /* SubmissionReportViewController.m in Sources */,
+				EA62599D18865F0D00AE5151 /* SpouseDetailsViewController.m in Sources */,
+				EAFF5B911883880100F6A017 /* MainMenuViewController.m in Sources */,
+				EA6259F3188665EB00AE5151 /* LinearInterpView.m in Sources */,
+				EA62597F1886452300AE5151 /* CardChoiceViewController.m in Sources */,
+				EA6259F2188665EB00AE5151 /* CachedLIView.m in Sources */,
+				EAFF5B6A1883801800F6A017 /* ViewController.m in Sources */,
+				EA62598E18865B9A00AE5151 /* EmploymentDetailsViewController.m in Sources */,
+				EA6259B118865F6700AE5151 /* SignatureViewController.m in Sources */,
+				EA5B37AC188CCA0F00CE90AA /* MyKadViewController.m in Sources */,
+				EA6259F4188665EB00AE5151 /* SmoothedBIView.m in Sources */,
+				EA6259A718865F3F00AE5151 /* DeclarationViewController.m in Sources */,
+				EA62598918864E3600AE5151 /* PersonalDetailsViewController.m in Sources */,
+				EA5B37AD188CCA0F00CE90AA /* MyKidViewController.m in Sources */,
+				EA62599818865EF700AE5151 /* EmergencyContactViewController.m in Sources */,
+				EA6259A218865F2A00AE5151 /* SupplementaryCardViewController.m in Sources */,
+				EAFF5B641883801800F6A017 /* AppDelegate.m in Sources */,
+				EA62599318865E9F00AE5151 /* FinancialDetailsViewController.m in Sources */,
+				EAFF5B601883801800F6A017 /* main.m in Sources */,
+				EA6259F1188665EB00AE5151 /* BezierInterpView.m in Sources */,
+				EA6259AC18865F5200AE5151 /* SupportingDocumentViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAFF5B6D1883801800F6A017 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAFF5B7F1883801800F6A017 /* BankIslamTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAFF5B771883801800F6A017 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAFF5B4F1883801800F6A017 /* BankIslam */;
+			targetProxy = EAFF5B761883801800F6A017 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAFF5B5C1883801800F6A017 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAFF5B5D1883801800F6A017 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EAFF5B651883801800F6A017 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAFF5B661883801800F6A017 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAFF5B7B1883801800F6A017 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAFF5B7C1883801800F6A017 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAFF5B801883801800F6A017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		EAFF5B811883801800F6A017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAFF5B831883801800F6A017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/dannyskom/Work,
+					Projects/Hurama/BankIslam/BankIslam,
+					/Users/administrator/Desktop/BankIslam/BankIslam,
+					"$(PROJECT_DIR)/BankIslam",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BankIslam/BankIslam-Prefix.pch";
+				INFOPLIST_FILE = "BankIslam/BankIslam-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALID_ARCHS = "armv7 armv7s i386";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EAFF5B841883801800F6A017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/dannyskom/Work,
+					Projects/Hurama/BankIslam/BankIslam,
+					/Users/administrator/Desktop/BankIslam/BankIslam,
+					"$(PROJECT_DIR)/BankIslam",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BankIslam/BankIslam-Prefix.pch";
+				INFOPLIST_FILE = "BankIslam/BankIslam-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALID_ARCHS = "armv7 armv7s i386";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EAFF5B861883801800F6A017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BankIslam.app/BankIslam";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BankIslam/BankIslam-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BankIslamTests/BankIslamTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EAFF5B871883801800F6A017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BankIslam.app/BankIslam";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BankIslam/BankIslam-Prefix.pch";
+				INFOPLIST_FILE = "BankIslamTests/BankIslamTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAFF5B4B1883801800F6A017 /* Build configuration list for PBXProject "BankIslam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAFF5B801883801800F6A017 /* Debug */,
+				EAFF5B811883801800F6A017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAFF5B821883801800F6A017 /* Build configuration list for PBXNativeTarget "BankIslam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAFF5B831883801800F6A017 /* Debug */,
+				EAFF5B841883801800F6A017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAFF5B851883801800F6A017 /* Build configuration list for PBXNativeTarget "BankIslamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAFF5B861883801800F6A017 /* Debug */,
+				EAFF5B871883801800F6A017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAFF5B481883801800F6A017 /* Project object */;
+}
