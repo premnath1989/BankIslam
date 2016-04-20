@@ -12,6 +12,10 @@
 @protocol FinancialDetailsDelegate;
 
 @interface FinancialDetailsViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *BasicSavingValue;
+@property (weak, nonatomic) IBOutlet UITextField *Age;
+@property (weak, nonatomic) IBOutlet UIButton *GenerateSum;
+- (IBAction)GenerateSumFunc:(id)sender;
 
 @property (nonatomic, weak) id<FinancialDetailsDelegate> delegate;
 
