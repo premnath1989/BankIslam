@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17516C901CCDBEE30009DC42 /* SharedStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17516C8F1CCDBEE30009DC42 /* SharedStoryboard.storyboard */; };
+		17516C931CCDC17A0009DC42 /* DateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17516C921CCDC17A0009DC42 /* DateViewController.m */; };
 		17E9BA201CBF23A2006098B8 /* MyID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5B37A5188CC9C500CE90AA /* MyID.framework */; };
 		17E9BA221CBF462E006098B8 /* 20130108Login.png in Resources */ = {isa = PBXBuildFile; fileRef = 17E9BA211CBF462E006098B8 /* 20130108Login.png */; };
+		17E9BA241CC48711006098B8 /* Screen Shot 2016-04-18 at 11.06.06 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 17E9BA231CC48711006098B8 /* Screen Shot 2016-04-18 at 11.06.06 AM.png */; };
+		17E9BA261CC48942006098B8 /* UnitTrust.png in Resources */ = {isa = PBXBuildFile; fileRef = 17E9BA251CC48942006098B8 /* UnitTrust.png */; };
 		EA0A8C9D1895D26B00251C7E /* GradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0A8C9C1895D26B00251C7E /* GradientLayer.m */; };
 		EA5130DF1895D4DC009FBE5C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5130DE1895D4DC009FBE5C /* QuartzCore.framework */; };
 		EA5130E11895DED2009FBE5C /* menu button.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5130E01895DED2009FBE5C /* menu button.png */; };
@@ -98,7 +102,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17516C8F1CCDBEE30009DC42 /* SharedStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SharedStoryboard.storyboard; sourceTree = "<group>"; };
+		17516C911CCDC17A0009DC42 /* DateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateViewController.h; sourceTree = "<group>"; };
+		17516C921CCDC17A0009DC42 /* DateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateViewController.m; sourceTree = "<group>"; };
 		17E9BA211CBF462E006098B8 /* 20130108Login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 20130108Login.png; sourceTree = "<group>"; };
+		17E9BA231CC48711006098B8 /* Screen Shot 2016-04-18 at 11.06.06 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2016-04-18 at 11.06.06 AM.png"; sourceTree = "<group>"; };
+		17E9BA251CC48942006098B8 /* UnitTrust.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UnitTrust.png; sourceTree = "<group>"; };
 		EA0A8C9B1895D26B00251C7E /* GradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientLayer.h; sourceTree = "<group>"; };
 		EA0A8C9C1895D26B00251C7E /* GradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientLayer.m; sourceTree = "<group>"; };
 		EA5130DE1895D4DC009FBE5C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -287,6 +296,9 @@
 				EA6259AA18865F5200AE5151 /* SupportingDocumentViewController.m */,
 				EA6259AE18865F6700AE5151 /* SignatureViewController.h */,
 				EA6259AF18865F6700AE5151 /* SignatureViewController.m */,
+				17516C911CCDC17A0009DC42 /* DateViewController.h */,
+				17516C921CCDC17A0009DC42 /* DateViewController.m */,
+				17516C8F1CCDBEE30009DC42 /* SharedStoryboard.storyboard */,
 			);
 			name = CreditCard;
 			sourceTree = "<group>";
@@ -411,6 +423,7 @@
 			isa = PBXGroup;
 			children = (
 				EAFF5B7A1883801800F6A017 /* BankIslamTests-Info.plist */,
+				17E9BA231CC48711006098B8 /* Screen Shot 2016-04-18 at 11.06.06 AM.png */,
 				EAFF5B7B1883801800F6A017 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -445,6 +458,7 @@
 				EA62597B188644EA00AE5151 /* CreditCard */,
 				EAFF5B9318839B9E00F6A017 /* CreditCardViewController.h */,
 				EAFF5B9418839B9E00F6A017 /* CreditCardViewController.m */,
+				17E9BA251CC48942006098B8 /* UnitTrust.png */,
 			);
 			name = Sales;
 			sourceTree = "<group>";
@@ -553,6 +567,7 @@
 				EA667BCA1888A51B00B77204 /* SupplementaryCardVC.xib in Resources */,
 				EA5B37C0188CD04F00CE90AA /* MainBg@2x.png in Resources */,
 				EAFF5B8A188381A300F6A017 /* logo.png in Resources */,
+				17516C901CCDBEE30009DC42 /* SharedStoryboard.storyboard in Resources */,
 				EA5B37BF188CD04F00CE90AA /* MainBg.png in Resources */,
 				EA62598A18864E3600AE5151 /* PersonalDetailsViewController.xib in Resources */,
 				EA667BC61888A50700B77204 /* EmergencyContactVC.xib in Resources */,
@@ -578,6 +593,7 @@
 				17E9BA221CBF462E006098B8 /* 20130108Login.png in Resources */,
 				EA5B37C1188CD04F00CE90AA /* myid.png in Resources */,
 				EA62599418865E9F00AE5151 /* FinancialDetailsViewController.xib in Resources */,
+				17E9BA261CC48942006098B8 /* UnitTrust.png in Resources */,
 				EA6259B218865F6700AE5151 /* SignatureViewController.xib in Resources */,
 				EA5B37C4188CD04F00CE90AA /* MyKadBg@2x.png in Resources */,
 				EA6259801886452300AE5151 /* CardChoiceViewController.xib in Resources */,
@@ -591,6 +607,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAFF5B7D1883801800F6A017 /* InfoPlist.strings in Resources */,
+				17E9BA241CC48711006098B8 /* Screen Shot 2016-04-18 at 11.06.06 AM.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -605,6 +622,7 @@
 				EA0A8C9D1895D26B00251C7E /* GradientLayer.m in Sources */,
 				EA667BD61888BA9A00B77204 /* SubmissionReportViewController.m in Sources */,
 				EA62599D18865F0D00AE5151 /* SpouseDetailsViewController.m in Sources */,
+				17516C931CCDC17A0009DC42 /* DateViewController.m in Sources */,
 				EAFF5B911883880100F6A017 /* MainMenuViewController.m in Sources */,
 				EA6259F3188665EB00AE5151 /* LinearInterpView.m in Sources */,
 				EA62597F1886452300AE5151 /* CardChoiceViewController.m in Sources */,

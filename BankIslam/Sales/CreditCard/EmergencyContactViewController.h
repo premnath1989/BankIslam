@@ -14,6 +14,15 @@
 @interface EmergencyContactViewController : UIViewController
 
 @property (nonatomic, weak) id<EmergencyContactDelegate> delegate;
+@property (weak, nonatomic) IBOutlet UITextField *TotalBasicSalarytxt;
+@property (weak, nonatomic) IBOutlet UITextField *TotalFixAllwnceTxt;
+
+@property (weak, nonatomic) IBOutlet UITextField *TotalIncTxt;
+
+@property (weak, nonatomic) IBOutlet UITextField *TotalNetIncomeStatutoryTxt;
+
+@property (weak, nonatomic) IBOutlet UITextField *TotalNetIncome;
+
 
 @end
 
